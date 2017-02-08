@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0998E8AFCB4A0853AB7856D92E1E410D /* VideoPlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = E7BC4ABE0CFE059B78A0BC30DDDE64E5 /* VideoPlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14C65E03947C724A462670A0CE9593E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5422916563B77A748D40B022EAE1747C /* Foundation.framework */; };
+		23F02D23316334CBB9DD44524E959D94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5422916563B77A748D40B022EAE1747C /* Foundation.framework */; };
+		2F1055F4138BB285A92ED4F3B24D07A4 /* YG_MeidaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 755A211318B83EED06C2BB6BABF620F9 /* YG_MeidaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A7B329C9729289E48D5E14E16949947 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ADFC5A4B2BBCFD9A27B7A059658E773 /* AVFoundation.framework */; };
+		6887A30C78BD415A4D1D6752A32C0077 /* FullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 057E031F70ADCB613B2502F9002380A6 /* FullViewController.m */; };
+		A5BC7A0B009290A56563B7FAF894FFD8 /* YG_ThunderPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6862B0854AC9102022A6955870804B91 /* YG_ThunderPlayer-dummy.m */; };
+		A74B63FE041E1F1EA01B2A67E532E0BE /* VideoPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65038429EE0F622BE5658FD7AC37743A /* VideoPlayView.m */; };
+		C4D3701ED3AC68CC8B839EE6E70E1144 /* FullViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BEEE2018102724D42579B4910E26BC8B /* FullViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFBFF220798DA94198032FF0DD8B0ECD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A41C04F9FB06B54E2A413E29A588B49 /* UIKit.framework */; };
+		F6ED6232F05E3CE3711C1CD27A1E8114 /* Pods-yg_mediaDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A02ACDD607B216406B11772408A6064 /* Pods-yg_mediaDemo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94DB71525A611A1D33398FAF55CFBA96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF95E16F2325E80552D8E5E206F9E4C6;
+			remoteInfo = YG_ThunderPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		057E031F70ADCB613B2502F9002380A6 /* FullViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FullViewController.m; path = YG_ThunderPlayer/FullViewController.m; sourceTree = "<group>"; };
+		0DB1F98F4EAFEF07F8F1FAA6772767C2 /* full_play_btn_hl@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "full_play_btn_hl@3x.png"; path = "YG_ThunderPlayer/resource/full_play_btn_hl@3x.png"; sourceTree = "<group>"; };
+		1B48F2002ACC8C0AC6FAA1EE52ED695A /* Pods-yg_mediaDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-yg_mediaDemo-frameworks.sh"; sourceTree = "<group>"; };
+		20CA9C4D034EEC26D53FA90175FDFC99 /* libPods-yg_mediaDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yg_mediaDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A02ACDD607B216406B11772408A6064 /* Pods-yg_mediaDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-yg_mediaDemo-dummy.m"; sourceTree = "<group>"; };
+		2E478075AE605F24BF15BBC8E8ECA2FF /* YG_ThunderPlayer.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = YG_ThunderPlayer.bundle; path = YG_ThunderPlayer/resource/YG_ThunderPlayer.bundle; sourceTree = "<group>"; };
+		2F169C123A2A552EB77A7E32F524F8F5 /* mini_launchFullScreen_btn_hl@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "mini_launchFullScreen_btn_hl@3x.png"; path = "YG_ThunderPlayer/resource/mini_launchFullScreen_btn_hl@3x.png"; sourceTree = "<group>"; };
+		391C181EC4671CCD68C0CA14872A7933 /* Pods-yg_mediaDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-yg_mediaDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3A41C04F9FB06B54E2A413E29A588B49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4F681CFA79A293D50AB5CA7B9628E459 /* YG_ThunderPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YG_ThunderPlayer-prefix.pch"; sourceTree = "<group>"; };
+		5422916563B77A748D40B022EAE1747C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5851AF74252D76BA1AF6EC22B846C442 /* libYG_ThunderPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYG_ThunderPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E960B02B831B5158AA7E1F0AFE93CBD /* VideoPlayView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = VideoPlayView.xib; path = YG_ThunderPlayer/resource/VideoPlayView.xib; sourceTree = "<group>"; };
+		6142F71DE1D9E79E2F92C7F24DEC5996 /* full_minimize_btn_hl@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "full_minimize_btn_hl@3x.png"; path = "YG_ThunderPlayer/resource/full_minimize_btn_hl@3x.png"; sourceTree = "<group>"; };
+		65038429EE0F622BE5658FD7AC37743A /* VideoPlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VideoPlayView.m; path = YG_ThunderPlayer/VideoPlayView.m; sourceTree = "<group>"; };
+		6862B0854AC9102022A6955870804B91 /* YG_ThunderPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YG_ThunderPlayer-dummy.m"; sourceTree = "<group>"; };
+		6B3A30312CC9712CF6E4161918B0A505 /* thumbImage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "thumbImage@2x.png"; path = "YG_ThunderPlayer/resource/thumbImage@2x.png"; sourceTree = "<group>"; };
+		755A211318B83EED06C2BB6BABF620F9 /* YG_MeidaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YG_MeidaView.h; path = YG_ThunderPlayer/YG_MeidaView.h; sourceTree = "<group>"; };
+		7DC409972A2A411485D3135B07EC46D7 /* Pods-yg_mediaDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-yg_mediaDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		7EA538DCF69BB2C9D0E7549640F68099 /* Pods-yg_mediaDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-yg_mediaDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8175373E3CB8A4AF4A6D244B677DFA1B /* MaximumTrackImage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MaximumTrackImage@2x.png"; path = "YG_ThunderPlayer/resource/MaximumTrackImage@2x.png"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ADFC5A4B2BBCFD9A27B7A059658E773 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		A9825FC037A18819DD04F7B10504E322 /* full_pause_btn_hl@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "full_pause_btn_hl@3x.png"; path = "YG_ThunderPlayer/resource/full_pause_btn_hl@3x.png"; sourceTree = "<group>"; };
+		BEEE2018102724D42579B4910E26BC8B /* FullViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FullViewController.h; path = YG_ThunderPlayer/FullViewController.h; sourceTree = "<group>"; };
+		C39D336846F98ADDCFFA5231E119D527 /* YG_ThunderPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YG_ThunderPlayer.xcconfig; sourceTree = "<group>"; };
+		C4CFE432D9941965AFEBD40D53B8F0C4 /* Pods-yg_mediaDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-yg_mediaDemo-resources.sh"; sourceTree = "<group>"; };
+		D0C7ABAAFEFBB21D5E65F3204B991DD0 /* full_minimize_btn_hl@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "full_minimize_btn_hl@2x.png"; path = "YG_ThunderPlayer/resource/full_minimize_btn_hl@2x.png"; sourceTree = "<group>"; };
+		E1C0AC40FF56581A7A4BDB22B5B81B95 /* bg_media_default@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "bg_media_default@3x.png"; path = "YG_ThunderPlayer/resource/bg_media_default@3x.png"; sourceTree = "<group>"; };
+		E7BC4ABE0CFE059B78A0BC30DDDE64E5 /* VideoPlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VideoPlayView.h; path = YG_ThunderPlayer/VideoPlayView.h; sourceTree = "<group>"; };
+		F103F5C3D04AC889EDB01FB3772DBB55 /* MinimumTrackImage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "MinimumTrackImage@2x.png"; path = "YG_ThunderPlayer/resource/MinimumTrackImage@2x.png"; sourceTree = "<group>"; };
+		F9C38C3629E1DB1AAEED9DF96B017059 /* full_play_btn_hl@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "full_play_btn_hl@2x.png"; path = "YG_ThunderPlayer/resource/full_play_btn_hl@2x.png"; sourceTree = "<group>"; };
+		FADC85A36647B00CFE2B5F1A0B924B28 /* full_pause_btn_hl@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "full_pause_btn_hl@2x.png"; path = "YG_ThunderPlayer/resource/full_pause_btn_hl@2x.png"; sourceTree = "<group>"; };
+		FAE241D258FDB80C4996616D90430C36 /* Pods-yg_mediaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-yg_mediaDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FC065002BB922A6ABD69B36C3FCA7922 /* mini_launchFullScreen_btn_hl@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "mini_launchFullScreen_btn_hl@2x.png"; path = "YG_ThunderPlayer/resource/mini_launchFullScreen_btn_hl@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6F289C6D3EF7F3DF0A26095BD47A88D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7B329C9729289E48D5E14E16949947 /* AVFoundation.framework in Frameworks */,
+				14C65E03947C724A462670A0CE9593E9 /* Foundation.framework in Frameworks */,
+				CFBFF220798DA94198032FF0DD8B0ECD /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE700AFA949D33A08F04B8DB59362151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F02D23316334CBB9DD44524E959D94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05591F2794FD09767385D9D245F05252 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20CA9C4D034EEC26D53FA90175FDFC99 /* libPods-yg_mediaDemo.a */,
+				5851AF74252D76BA1AF6EC22B846C442 /* libYG_ThunderPlayer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA648648317C71E5A4DA455C8D2DBA8E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BC35A44AA8BF79AD18B979FD0DBFBD7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6285463E53D9D218053B93A7BCB0A6C /* Pods-yg_mediaDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		66AFEB2FDCEEE9F49E351DE599660506 /* YG_ThunderPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				BEEE2018102724D42579B4910E26BC8B /* FullViewController.h */,
+				057E031F70ADCB613B2502F9002380A6 /* FullViewController.m */,
+				E7BC4ABE0CFE059B78A0BC30DDDE64E5 /* VideoPlayView.h */,
+				65038429EE0F622BE5658FD7AC37743A /* VideoPlayView.m */,
+				755A211318B83EED06C2BB6BABF620F9 /* YG_MeidaView.h */,
+				820ECC354480013153F28879CD9BB805 /* Resources */,
+				6C893EA24F70D36AC76A88631680086C /* Support Files */,
+			);
+			path = YG_ThunderPlayer;
+			sourceTree = "<group>";
+		};
+		6C893EA24F70D36AC76A88631680086C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C39D336846F98ADDCFFA5231E119D527 /* YG_ThunderPlayer.xcconfig */,
+				6862B0854AC9102022A6955870804B91 /* YG_ThunderPlayer-dummy.m */,
+				4F681CFA79A293D50AB5CA7B9628E459 /* YG_ThunderPlayer-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YG_ThunderPlayer";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				AA5F0BBF8BCC58B0F1858BE33EF74EC7 /* Pods */,
+				05591F2794FD09767385D9D245F05252 /* Products */,
+				5BC35A44AA8BF79AD18B979FD0DBFBD7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		820ECC354480013153F28879CD9BB805 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1C0AC40FF56581A7A4BDB22B5B81B95 /* bg_media_default@3x.png */,
+				D0C7ABAAFEFBB21D5E65F3204B991DD0 /* full_minimize_btn_hl@2x.png */,
+				6142F71DE1D9E79E2F92C7F24DEC5996 /* full_minimize_btn_hl@3x.png */,
+				FADC85A36647B00CFE2B5F1A0B924B28 /* full_pause_btn_hl@2x.png */,
+				A9825FC037A18819DD04F7B10504E322 /* full_pause_btn_hl@3x.png */,
+				F9C38C3629E1DB1AAEED9DF96B017059 /* full_play_btn_hl@2x.png */,
+				0DB1F98F4EAFEF07F8F1FAA6772767C2 /* full_play_btn_hl@3x.png */,
+				8175373E3CB8A4AF4A6D244B677DFA1B /* MaximumTrackImage@2x.png */,
+				FC065002BB922A6ABD69B36C3FCA7922 /* mini_launchFullScreen_btn_hl@2x.png */,
+				2F169C123A2A552EB77A7E32F524F8F5 /* mini_launchFullScreen_btn_hl@3x.png */,
+				F103F5C3D04AC889EDB01FB3772DBB55 /* MinimumTrackImage@2x.png */,
+				6B3A30312CC9712CF6E4161918B0A505 /* thumbImage@2x.png */,
+				5E960B02B831B5158AA7E1F0AFE93CBD /* VideoPlayView.xib */,
+				2E478075AE605F24BF15BBC8E8ECA2FF /* YG_ThunderPlayer.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A6285463E53D9D218053B93A7BCB0A6C /* Pods-yg_mediaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				391C181EC4671CCD68C0CA14872A7933 /* Pods-yg_mediaDemo-acknowledgements.markdown */,
+				7DC409972A2A411485D3135B07EC46D7 /* Pods-yg_mediaDemo-acknowledgements.plist */,
+				2A02ACDD607B216406B11772408A6064 /* Pods-yg_mediaDemo-dummy.m */,
+				1B48F2002ACC8C0AC6FAA1EE52ED695A /* Pods-yg_mediaDemo-frameworks.sh */,
+				C4CFE432D9941965AFEBD40D53B8F0C4 /* Pods-yg_mediaDemo-resources.sh */,
+				FAE241D258FDB80C4996616D90430C36 /* Pods-yg_mediaDemo.debug.xcconfig */,
+				7EA538DCF69BB2C9D0E7549640F68099 /* Pods-yg_mediaDemo.release.xcconfig */,
+			);
+			name = "Pods-yg_mediaDemo";
+			path = "Target Support Files/Pods-yg_mediaDemo";
+			sourceTree = "<group>";
+		};
+		AA5F0BBF8BCC58B0F1858BE33EF74EC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66AFEB2FDCEEE9F49E351DE599660506 /* YG_ThunderPlayer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA648648317C71E5A4DA455C8D2DBA8E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9ADFC5A4B2BBCFD9A27B7A059658E773 /* AVFoundation.framework */,
+				5422916563B77A748D40B022EAE1747C /* Foundation.framework */,
+				3A41C04F9FB06B54E2A413E29A588B49 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DAADF16AA669688E7CF23519A9E594F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D3701ED3AC68CC8B839EE6E70E1144 /* FullViewController.h in Headers */,
+				0998E8AFCB4A0853AB7856D92E1E410D /* VideoPlayView.h in Headers */,
+				2F1055F4138BB285A92ED4F3B24D07A4 /* YG_MeidaView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BF95E16F2325E80552D8E5E206F9E4C6 /* YG_ThunderPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D0FDA0DCA2B240BC107AC07C41DB267 /* Build configuration list for PBXNativeTarget "YG_ThunderPlayer" */;
+			buildPhases = (
+				71DB6FAB2FE965715CBB9050DC07C6F1 /* Sources */,
+				A6F289C6D3EF7F3DF0A26095BD47A88D /* Frameworks */,
+				DAADF16AA669688E7CF23519A9E594F6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YG_ThunderPlayer;
+			productName = YG_ThunderPlayer;
+			productReference = 5851AF74252D76BA1AF6EC22B846C442 /* libYG_ThunderPlayer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ED24B3709AAC377071D465704C8829D8 /* Pods-yg_mediaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD1692EF50C8940AFEE4AD4EFB6AF9CB /* Build configuration list for PBXNativeTarget "Pods-yg_mediaDemo" */;
+			buildPhases = (
+				535F1F0FC0D4BBAB025541130030DC38 /* Sources */,
+				EE700AFA949D33A08F04B8DB59362151 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9411AE7A76FBF1FD0F20FF02DDBA6619 /* PBXTargetDependency */,
+			);
+			name = "Pods-yg_mediaDemo";
+			productName = "Pods-yg_mediaDemo";
+			productReference = 20CA9C4D034EEC26D53FA90175FDFC99 /* libPods-yg_mediaDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 05591F2794FD09767385D9D245F05252 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED24B3709AAC377071D465704C8829D8 /* Pods-yg_mediaDemo */,
+				BF95E16F2325E80552D8E5E206F9E4C6 /* YG_ThunderPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		535F1F0FC0D4BBAB025541130030DC38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6ED6232F05E3CE3711C1CD27A1E8114 /* Pods-yg_mediaDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71DB6FAB2FE965715CBB9050DC07C6F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6887A30C78BD415A4D1D6752A32C0077 /* FullViewController.m in Sources */,
+				A74B63FE041E1F1EA01B2A67E532E0BE /* VideoPlayView.m in Sources */,
+				A5BC7A0B009290A56563B7FAF894FFD8 /* YG_ThunderPlayer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9411AE7A76FBF1FD0F20FF02DDBA6619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YG_ThunderPlayer;
+			target = BF95E16F2325E80552D8E5E206F9E4C6 /* YG_ThunderPlayer */;
+			targetProxy = 94DB71525A611A1D33398FAF55CFBA96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12D03FC6F13A0088E27794D290E1CDD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EA538DCF69BB2C9D0E7549640F68099 /* Pods-yg_mediaDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		39AE17B103BDACC488E2187B221C5FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAE241D258FDB80C4996616D90430C36 /* Pods-yg_mediaDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D959FB5331766D410F44894ED98A6AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C39D336846F98ADDCFFA5231E119D527 /* YG_ThunderPlayer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YG_ThunderPlayer/YG_ThunderPlayer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EDB279F3CB370738EA78622831F8CEC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C39D336846F98ADDCFFA5231E119D527 /* YG_ThunderPlayer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YG_ThunderPlayer/YG_ThunderPlayer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D0FDA0DCA2B240BC107AC07C41DB267 /* Build configuration list for PBXNativeTarget "YG_ThunderPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D959FB5331766D410F44894ED98A6AD7 /* Debug */,
+				EDB279F3CB370738EA78622831F8CEC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD1692EF50C8940AFEE4AD4EFB6AF9CB /* Build configuration list for PBXNativeTarget "Pods-yg_mediaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AE17B103BDACC488E2187B221C5FCE /* Debug */,
+				12D03FC6F13A0088E27794D290E1CDD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
